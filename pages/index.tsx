@@ -35,7 +35,7 @@ export default function Home() {
         <link rel="apple-touch-icon" href="/icon.svg" />
 
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://nestoredduardo.me/" />
+        <meta property="og:url" content="https://dekuwallet.vercel.app/" />
         <meta property="og:title" content="Deku Wallet" />
         <meta
           property="og:description"
@@ -44,7 +44,7 @@ export default function Home() {
         <meta property="og:image" content="/metaImage.png" />
 
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://nestoredduardo.me/" />
+        <meta property="twitter:url" content="https://dekuwallet.vercel.app/" />
         <meta property="twitter:title" content="Deku Wallet" />
         <meta
           property="twitter:description"
