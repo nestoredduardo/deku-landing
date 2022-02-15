@@ -53,7 +53,7 @@ export default function Home() {
         <meta property="twitter:image" content="/metaImage.png" />
       </Head>
       <main className="md:flex md:min-h-screen md:bg-gradient-to-br md:from-[#0BD6CD] md:to-[#2600FF]">
-        <div className="m-auto flex h-full flex-col items-center bg-[#F4F2FF] md:h-fit md:w-3/5 md:rounded-2xl md:pb-10 xl:w-2/5">
+        <div className="m-auto flex min-h-screen flex-col items-center bg-[#F4F2FF] md:h-fit md:min-h-fit md:w-3/5 md:rounded-2xl md:pb-10 xl:w-2/5">
           <section className="mt-20 flex items-center gap-2">
             <div className="relative h-20 w-16 lg:h-24 lg:w-20">
               <Image src="/logo.png" layout="fill" />
