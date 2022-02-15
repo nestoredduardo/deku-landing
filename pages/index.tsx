@@ -79,7 +79,7 @@ export default function Home() {
             />
             <button
               type="submit"
-              className="flex items-center justify-center gap-2 rounded-xl bg-gradient-to-br from-[#0BD6CD] to-[#2600FF] py-3 text-lg font-semibold text-white disabled:cursor-not-allowed disabled:opacity-50"
+              className="mb-4 flex items-center justify-center gap-2 rounded-xl bg-gradient-to-br from-[#0BD6CD] to-[#2600FF] py-3 text-lg font-semibold text-white disabled:cursor-not-allowed disabled:opacity-50 md:mb-0"
               disabled={loading}
             >
               {loading && (
