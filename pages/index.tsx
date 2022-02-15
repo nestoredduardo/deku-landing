@@ -41,7 +41,10 @@ export default function Home() {
           property="og:description"
           content="Wallet para tus compras en línea o físicas donde puedes utilizar Bitcoin o Soles"
         />
-        <meta property="og:image" content="/metaImage.png" />
+        <meta
+          property="og:image"
+          content="https://dekuwallet.vercel.app/metaImage.png"
+        />
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://dekuwallet.vercel.app/" />
@@ -50,7 +53,10 @@ export default function Home() {
           property="twitter:description"
           content="Wallet para tus compras en línea o físicas donde puedes utilizar Bitcoin o Soles"
         />
-        <meta property="twitter:image" content="/metaImage.png" />
+        <meta
+          property="twitter:image"
+          content="https://dekuwallet.vercel.app/metaImage.png"
+        />
       </Head>
       <main className="md:flex md:min-h-screen md:bg-gradient-to-br md:from-[#0BD6CD] md:to-[#2600FF]">
         <div className="m-auto flex min-h-screen flex-col items-center bg-[#F4F2FF] md:h-fit md:min-h-fit md:w-3/5 md:rounded-2xl md:pb-10 xl:w-2/5">
