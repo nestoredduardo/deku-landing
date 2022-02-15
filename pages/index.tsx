@@ -27,6 +27,30 @@ export default function Home() {
       <Head>
         <title>Deku</title>
         <link rel="icon" href="/icon.svg" />
+        <meta
+          name="description"
+          content="Wallet para tus compras en línea o físicas donde puedes utilizar Bitcoin o Soles"
+        />
+
+        <link rel="apple-touch-icon" href="/icon.svg" />
+
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://nestoredduardo.me/" />
+        <meta property="og:title" content="Deku Wallet" />
+        <meta
+          property="og:description"
+          content="Wallet para tus compras en línea o físicas donde puedes utilizar Bitcoin o Soles"
+        />
+        <meta property="og:image" content="/metaImage.png" />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://nestoredduardo.me/" />
+        <meta property="twitter:title" content="Deku Wallet" />
+        <meta
+          property="twitter:description"
+          content="Wallet para tus compras en línea o físicas donde puedes utilizar Bitcoin o Soles"
+        />
+        <meta property="twitter:image" content="/metaImage.png" />
       </Head>
       <main className="md:flex md:min-h-screen md:bg-gradient-to-br md:from-[#0BD6CD] md:to-[#2600FF]">
         <div className="m-auto flex h-screen flex-col items-center bg-[#F4F2FF] md:h-fit md:w-3/5 md:rounded-2xl md:pb-10 xl:w-2/5">
